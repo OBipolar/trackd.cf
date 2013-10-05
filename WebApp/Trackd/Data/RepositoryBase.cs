@@ -17,7 +17,7 @@ namespace Data
 
         public RepositoryBase()
         {
-            _connectionString = "";// RoleEnvironment.GetConfigurationSettingValue("SqlConnectionString");
+            _connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
         }
 
         protected T ExecuteSql<T>(string query, object paramObj, SqlDel<T> work, bool storedProc = false)

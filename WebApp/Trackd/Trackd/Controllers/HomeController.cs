@@ -1,4 +1,5 @@
-﻿using Model;
+﻿using BusinessLogic;
+using Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,13 @@ namespace Trackd.Controllers
 {
     public class HomeController : Controller
     {
+        public BusinessProvider _businessProvider { get; set; }
+
+        public HomeController()
+        {
+            _businessProvider = new BusinessProvider();
+        }
+
         public ActionResult Index()
         {
             return View();
