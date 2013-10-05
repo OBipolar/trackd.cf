@@ -1,0 +1,4 @@
+C:\Code\HackForCF\Trackd\Data\bin\Debug\Data.dll
+C:\Code\HackForCF\Trackd\Data\bin\Debug\Data.pdb
+C:\Code\HackForCF\Trackd\Data\obj\Debug\Data.dll
+C:\Code\HackForCF\Trackd\Data\obj\Debug\Data.pdb

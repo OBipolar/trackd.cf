@@ -1,0 +1,5 @@
+C:\Code\HackForCF\Trackd\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Code\HackForCF\Trackd\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Code\HackForCF\Trackd\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Code\HackForCF\Trackd\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Code\HackForCF\Trackd\BusinessLogic\obj\Debug\BusinessLogic.pdb
