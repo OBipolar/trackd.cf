@@ -176,3 +176,5 @@ C:\Code\GitHub\trackd.cf\WebApp\Trackd\Trackd\bin\zh-Hant\System.Spatial.resourc
 C:\Code\GitHub\trackd.cf\WebApp\Trackd\Trackd\obj\Debug\Trackd.csprojResolveAssemblyReference.cache
 C:\Code\GitHub\trackd.cf\WebApp\Trackd\Trackd\obj\Debug\Trackd.dll
 C:\Code\GitHub\trackd.cf\WebApp\Trackd\Trackd\obj\Debug\Trackd.pdb
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\Trackd\bin\Model.dll
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\Trackd\bin\Model.pdb

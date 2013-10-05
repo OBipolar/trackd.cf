@@ -3,3 +3,12 @@ C:\Code\HackForCF\Trackd\BusinessLogic\bin\Debug\BusinessLogic.pdb
 C:\Code\HackForCF\Trackd\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
 C:\Code\HackForCF\Trackd\BusinessLogic\obj\Debug\BusinessLogic.dll
 C:\Code\HackForCF\Trackd\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\BusinessLogic\bin\Debug\Data.dll
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\BusinessLogic\bin\Debug\Model.dll
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\BusinessLogic\bin\Debug\Data.pdb
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\BusinessLogic\bin\Debug\Model.pdb
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\BusinessLogic\obj\Debug\BusinessLogic.pdb

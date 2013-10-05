@@ -260,6 +260,8 @@
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="bootstrap\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Properties\PublishProfiles\trackdcf - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\trackdcf - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
@@ -330,6 +332,10 @@
     <ProjectReference Include="..\Data\Data.csproj">
       <Project>{8c5935d1-bad2-4285-96db-65f87e2730f9}</Project>
       <Name>Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{cb1eb8a9-2651-41b2-a9f2-a04516582dc9}</Project>
+      <Name>Model</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

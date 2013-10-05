@@ -1,0 +1,5 @@
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\Model\bin\Debug\Model.dll
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\Model\bin\Debug\Model.pdb
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\Model\obj\Debug\Model.dll
+C:\Code\GitHub\trackd.cf\WebApp\Trackd\Model\obj\Debug\Model.pdb
