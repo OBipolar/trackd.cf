@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Title here -->
+		<title>User Interface - Olson Admin</title>
+		<!-- Description, Keywords and Author -->
+		<meta name="description" content="Your description">
+		<meta name="keywords" content="Your,Keywords">
+		<meta name="author" content="ResponsiveWebInc">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600italic,600' rel='stylesheet' type='text/css'>
+		
+		<!-- Styles -->
+		<!-- Bootstrap CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+      <!-- Animate css -->
+      <link href="css/animate.min.css" rel="stylesheet">
+      <!-- Gritter -->
+      <link href="css/jquery.gritter.css" rel="stylesheet">
+      <!-- Calendar -->
+      <link href="css/fullcalendar.css" rel="stylesheet">
+      <!-- Bootstrap toggable -->
+      <link href="css/bootstrap-switch.css" rel="stylesheet">
+      <!-- Date and Time picker -->
+      <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+      <!-- Star rating -->
+      <link href="css/rateit.css" rel="stylesheet">
+      <!-- Star rating -->
+      <link href="css/jquery.cleditor.css" rel="stylesheet">
+      <!-- jQuery UI -->
+      <link href="css/jquery-ui.css" rel="stylesheet">
+      <!-- prettyPhoto -->
+      <link href="css/prettyPhoto.css" rel="stylesheet">
+		<!-- Font awesome CSS -->
+		<link href="css/font-awesome.min.css" rel="stylesheet">		
+		<!-- Custom CSS -->
+		<link href="css/style.css" rel="stylesheet">
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="#">
+	</head>
+	
+	<body>
+
+      
+      <!-- Logo & Navigation starts -->
+      
+      <div class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-3">
+                  <!-- Logo -->
+                  <div class="logo">
+                     <h1><a href="index.html">Olson Admin</a></h1>
+                  </div>
+               </div>
+               <div class="col-md-3">
+                  <div class="row">
+                    <div class="col-lg-10">
+                      <div class="input-group form">
+                           <input type="text" class="form-control" placeholder="Something...">
+                           <span class="input-group-btn">
+                             <button class="btn btn-info" type="button">Search</button>
+                           </span>
+                      </div>
+                    </div>
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="navbar navbar-inverse" role="banner">
+                      <div class="navbar-header">
+                        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+                          <span>Menu</span>
+                        </button>
+                      </div>
+                      <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
+                        <ul class="nav navbar-nav">
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-comments"></i> Chats <span class="label label-success">5</span> <b class="caret"></b></a>
+                            <!-- Big dropdown menu -->
+                            <ul class="dropdown-menu dropdown-big animated fadeInUp">
+                              <!-- Dropdown menu header -->
+                              <div class="dropdown-head">
+                                 <span class="dropdown-title">Recent Chats</span>
+                              </div>
+                              <!-- Dropdown menu body -->
+                              <div class="dropdown-body">
+                                 <li><i class="icon-comments color"></i> <a href="#">Hi, How are you?</a><span class="label label-info pull-right">8.49</span></li>
+                                 <li><i class="icon-comments color"></i> <a href="#">What are you doing?</a><span class="label label-info pull-right">6.49</span></li>
+                                 <li><i class="icon-comments color"></i> <a href="#">Why are you doing this?</a><span class="label label-info pull-right">4.49</span></li>
+                                 <li><i class="icon-comments color"></i> <a href="#">Mr.Baburae what is this?</a><span class="label label-info pull-right">1.49</span></li>
+                              </div>
+                              <!-- Dropdown menu footer -->
+                              <div class="dropdown-foot text-center">
+                                 <a href="#">View All Chats</a>
+                              </div>
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-user"></i> Users <span class="label label-primary">5</span> <b class="caret"></b></a>
+                            <!-- Big dropdown menu -->
+                            <ul class="dropdown-menu dropdown-big animated fadeInUp">
+                              <!-- Dropdown menu header -->
+                              <div class="dropdown-head">
+                                 <span class="dropdown-title">Members</span>
+                              </div>
+                              <!-- Dropdown menu body -->
+                              <div class="dropdown-body">
+                                 <li><i class="icon-user color"></i> <a href="#">Ashok</a><span class="label label-danger pull-right">Free</span></li>
+                                 <li><i class="icon-user color"></i> <a href="#">Ravi Kumar</a><span class="label label-warning pull-right">Premium</span></li>
+                                 <li><i class="icon-user color"></i> <a href="#">Baburae</a><span class="label label-primary pull-right">VIP</span></li>
+                                 <li><i class="icon-user color"></i> <a href="#">Sunil Kumar</a><span class="label label-warning pull-right">Premium</span></li>
+                              </div>
+                              <!-- Dropdown menu footer -->
+                              <div class="dropdown-foot text-center">
+                                 <a href="#">All Members</a>
+                              </div>
+                            </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Account <b class="caret"></b></a>
+                            <ul class="dropdown-menu animated fadeInUp">
+                              <li><a href="profile.html">Profile</a></li>
+                              <li><a href="login.html">Logout</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      
+      <!-- Logo & Navigation ends -->
+     
+      
+      
+      <!-- Page content -->
+      
+      <div class="page-content blocky">
+         <div class="container">
+
+                  <div class="side-cont">
+                 
+                  <div class="sidebar-dropdown"><a href="#">MENU</a></div>
+                 
+                     <div class="sidey">
+                        <ul class="nav">
+                            <!-- Main menu -->
+                            <li><a href="index.html"><i class="icon-home"></i> Dashboard</a></li>
+                            <li><a href="charts.html"><i class="icon-bar-chart"></i> Charts</a></li>
+                            <li class="has_submenu current open">
+                                 <a href="#">
+                                    <i class="icon-sitemap"></i> Elements
+                                    <span class="caret pull-right"></span>
+                                 </a>
+                                 <!-- Sub menu -->
+                                 <ul>
+                                    <li class="active"><a href="ui.html">User Interface</a></li>
+                                    <li><a href="tables.html">Tables</a></li>
+                                    <li><a href="form.html">Form</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="widgets.html"><i class="icon-th"></i> Widgets</a></li>
+                            <li class="has_submenu">
+                                <a href="#">
+                                    <i class="icon-file"></i> Pages
+                                    <span class="caret pull-right"></span>
+                                </a>
+                                <ul>
+                                    <li><a href="login.html">Login</a></li>
+                                    <li><a href="register.html">Register</a></li>
+                                    <li><a href="errorlog.html">Error Log</a></li>
+                                    <li><a href="invoice.html">Invoice</a></li>
+                                    <li><a href="404.html">404</a></li>
+                                    <li><a href="makepost.html">Make Post</a></li>
+                                    <li><a href="profile.html">Profile</a></li>
+                                    <li><a href="media.html">Media</a></li>
+                                </ul>
+                            </li> 
+                            <li><a href="calendar.html"><i class="icon-calendar"></i> Calendar</a></li>
+                            <li><a href="gallery.html"><i class="icon-camera"></i> Gallery</a></li>
+                        </ul>
+                     </div>
+                  </div>
+            
+            <div class="mainy">
+               <!-- Page title -->
+               <div class="page-title">
+                  <h2><i class="icon-desktop color"></i> User Interface <small>Subtext for header</small></h2>
+                  <hr />
+               </div>
+               <!-- Page title -->
+               
+                  <div class="row">
+                  
+                     <div class="col-md-6">
+                        <div class="awidget">
+                           <div class="awidget-head">
+                              <h3>User Interface</h3>
+                           </div>
+                           <div class="awidget-body">
+                              
+                                <h5>Button Group</h5>
+                                <div class="btn-group">
+                                  <button class="btn btn-danger">Left</button>
+                                  <button class="btn btn-success">Center</button>
+                                  <button class="btn btn-primary">Right</button>
+                                </div>
+                                <hr />
+
+                                <h5>Toggle Button</h5>
+                                 <div class="make-switch" data-on="primary" data-off="info">
+                                     <input type="checkbox" checked>
+                                 </div>
+                                  
+                                 <div class="make-switch" data-on="info" data-off="success">
+                                     <input type="checkbox" checked>
+                                 </div>
+                                  
+                                 <div class="make-switch" data-on="success" data-off="warning">
+                                     <input type="checkbox" checked>
+                                 </div>
+                                  
+                                 <div class="make-switch" data-on="warning" data-off="danger">
+                                     <input type="checkbox" checked>
+                                 </div>
+                                  
+                                 <div class="make-switch" data-on="danger" data-off="default">
+                                     <input type="checkbox" checked>
+                                 </div>
+                                  
+                                 <div class="make-switch" data-on="default" data-off="primary">
+                                     <input type="checkbox" checked>
+                                 </div>     
+                                <hr />                                  
+
+                                <h5>Button Dropdown</h5>
+                                <div class="btn-group">
+                                  <button class="btn btn-default dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                                  <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                  </ul>
+                                </div>
+                                <hr />
+
+                                <h5>Tabbable</h5>
+                                <div class="tabbable" style="margin-bottom: 18px;">
+                                  <ul class="nav nav-tabs">
+                                    <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+                                    <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+                                    <li><a href="#tab3" data-toggle="tab">Section 3</a></li>
+                                  </ul>
+                                  <div class="tab-content" style="padding-bottom: 9px; border-bottom: 1px solid #ddd;">
+                                    <div class="tab-pane active" id="tab1">
+                                      <p>I'm in Section 1.</p>
+                                    </div>
+                                    <div class="tab-pane" id="tab2">
+                                      <p>Howdy, I'm in Section 2.</p>
+                                    </div>
+                                    <div class="tab-pane" id="tab3">
+                                      <p>What up girl, this is Section 3.</p>
+                                    </div>
+                                  </div>
+                                </div>
+                                <hr />
+
+                                <h5>Pagination</h5>
+                                
+                                  <ul class="pagination">
+                                    <li><a href="#">Prev</a></li>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                    <li><a href="#">Next</a></li>
+                                  </ul>
+                                
+                                <hr />
+
+                                <h5>Labels</h5>
+                                <span class="label label-default">Default</span>
+                                <span class="label label-success">Success</span>
+                                <span class="label label-warning">Warning</span>
+                                <span class="label label-danger">Important</span>
+                                <span class="label label-info">Info</span>
+                                <span class="label label-success">Success</span>
+                                <hr />
+
+
+                                <h5>Alerts</h5>
+                                <div class="alert alert-warning">
+                                  Oh snap! Change a few things up and try submitting again.
+                                </div>
+                                <div class="alert alert-success">
+                                  Well done! You successfully read this important alert message.
+                                </div>
+                                <div class="alert alert-info">
+                                  Heads up! This alert needs your attention, but it's not super important.
+                                </div>                                        
+                                <hr />
+
+
+                                <h5>Modal</h5>
+                                <!-- Button to trigger modal -->
+                                <a href="#myModal" class="btn btn-info" data-toggle="modal">Launch demo modal</a>
+                                 
+                                <!-- Modal -->
+                                <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                     <div class="modal-dialog">
+                                       <div class="modal-content">
+                                           <div class="modal-header">
+                                             <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                             <h4 class="modal-title">Modal title</h4>
+                                           </div>
+                                           <div class="modal-body">
+                                             <p>One fine body…</p>
+                                           </div>
+                                           <div class="modal-footer">
+                                             <button type="button" class="btn btn-default" data-dismiss="modal" aria-hidden="true">Close</button>
+                                             <button type="button" class="btn btn-primary">Save changes</button>
+                                           </div>
+                                       </div>
+                                     </div>
+                                 </div>
+                                <hr />
+
+
+                           </div>
+                              
+                        </div>
+                     </div>
+                     
+                     <div class="col-md-6">
+                        
+                        <div class="awidget">
+                           <div class="awidget-head">
+                              <h3>User Interface</h3>
+                           </div>
+                           <div class="awidget-body">
+                           
+                              <h5>Horizontal Slider</h5>
+
+                             <div id="master4" class="slider-yellow"></div>
+                             <div id="master1" class="slider-red"></div>
+                             <div id="master3" class="slider-green"></div>
+                             <div id="master5" class="slider-orange"></div>
+                             <div id="master2" class="slider-blue"></div>
+                             <div id="master6" class="slider-violet"></div>
+                              
+                             <hr />
+
+                             <h5>Progressbar</h5>
+
+                            <div class="progress progress-striped active">
+                             <div class="progress-bar progress-bar-warning"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                              <span class="sr-only">80% Complete</span>
+                             </div>
+                           </div>
+                             <div class="progress progress-striped active">
+                             <div class="progress-bar progress-bar-success"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                              <span class="sr-only">80% Complete</span>
+                             </div>
+                           </div>
+                             <div class="progress progress-striped active">
+                             <div class="progress-bar progress-bar-danger"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                              <span class="sr-only">80% Complete</span>
+                             </div>
+                           </div>
+                             <div class="progress progress-striped active">
+                             <div class="progress-bar progress-bar-info"  role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                              <span class="sr-only">80% Complete</span>
+                             </div>
+                           </div>
+                             <hr />
+
+                             <h5>Progressbar Animated</h5>
+
+                              <div class="progress progress-animated progress-striped active">
+                             <div class="progress-bar progress-bar-warning"  data-percentage="100" >
+                              <span class="sr-only">100% Complete</span>
+                             </div>
+                          </div>
+                              <div class="progress progress-animated progress-striped active">
+                             <div class="progress-bar progress-bar-info" data-percentage="100" >
+                              <span class="sr-only">100% Complete</span>
+                             </div>
+                          </div>
+                              <div class="progress progress-animated progress-striped active">
+                             <div class="progress-bar progress-bar-danger" data-percentage="100" >
+                              <span class="sr-only">100% Complete</span>
+                             </div>
+                          </div>
+                              <div class="progress progress-animated progress-striped active">
+                             <div class="progress-bar progress-bar-success" data-percentage="100" >
+                              <span class="sr-only">100% Complete</span>
+                             </div>
+                          </div>
+
+                             <hr />
+
+                             <h5>Vertical Slider</h5>
+
+                             <div id="eq">
+                                 <span class="slider-red">88</span>
+                                 <span class="slider-blue">77</span>
+                                 <span class="slider-green">55</span>
+                                 <span class="slider-yellow">33</span>
+                                 <span class="slider-orange">40</span>
+                                 <span class="slider-violet">45</span>
+                                 <div class="clearfix"></div>
+                             </div>
+
+
+
+                             <hr />
+
+                             <h5>Star Rating</h5>
+
+                             <div class="rateit" data-rateit-resetable="false"></div>
+                             <hr />
+
+                             <h5>Notification</h5>
+
+
+                             <a href="#" class="btn notify btn-default btn-sm">Notification</a>
+                             <a href="#" class="btn notify-sticky btn-default btn-sm">Sticky Notification</a>
+                             <a href="#" class="btn notify-without-image btn-default btn-sm">Notification - Without Image</a>
+                             <a href="#" class="btn notify-remove btn-default btn-sm">Remove</a>
+
+                             <hr />
+
+                             <h5>Tabs</h5>
+                             <ul id="myTab" class="nav nav-tabs">
+                               <li class="active"><a href="#home" data-toggle="tab">Home</a></li>
+                               <li><a href="#profile" data-toggle="tab">Profile</a></li>
+                               <li><a href="#cont" data-toggle="tab">Content</a></li>
+                             </ul>
+                             <div id="myTabContent" class="tab-content">
+                               <div class="tab-pane fade in active" id="home">
+                                 <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                               </div>
+                               <div class="tab-pane fade" id="profile">
+                                 <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                               </div>
+                               <div class="tab-pane fade" id="cont">
+                                 <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+                               </div>
+                             </div>
+                             <hr />
+
+                             <h5>Datepicker</h5>
+                               <div id="datetimepicker1" class="input-append">
+                                 <input data-format="yyyy-MM-dd" class="picker" type="text">
+                                 <span class="add-on">
+                                   &nbsp;<i data-time-icon="icon-time" data-date-icon="icon-calendar">
+                                   </i>
+                                 </span>
+                               </div>
+
+                             <hr />  
+
+                             <h5>Timepicker</h5>
+                               <div id="datetimepicker2" class="input-append">
+                                 <input data-format="hh:mm:ss" class="picker" type="text">
+                                 <span class="add-on">
+                                   &nbsp;<i data-time-icon="icon-time" data-date-icon="icon-calendar">
+                                   </i>
+                                 </span>
+                               </div>
+
+
+                           </div>
+                           
+                           
+                        </div>
+                        
+                     </div>
+                     
+                  </div>
+                     
+                  
+            </div>
+            
+            <div class="clearfix"></div>
+            
+         </div>
+      </div>
+     
+      
+      
+      <!-- Footer starts -->
+      <footer>
+         <div class="container">
+         
+            <div class="copy text-center">
+               Copyright 2013 &copy; - <a href="http://responsivewebinc.com/bootstrap-themes">Bootstrap Themes</a>
+            </div>
+            
+         </div>
+      </footer>
+      <!-- Footer ends -->
+      
+      <!-- Scroll to top -->
+      <span class="totop"><a href="#"><i class="icon-chevron-up"></i></a></span> 
+      
+		<!-- Javascript files -->
+		<!-- jQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.min.js"></script>  
+      <!-- jQuery UI -->
+      <script src="js/jquery-ui-1.10.2.custom.min.js"></script>     
+      <!-- jQuery Peity -->
+      <script src="js/peity.js"></script>  
+      <!-- Calendar -->
+      <script src="js/fullcalendar.min.js"></script>  
+      <!-- jQuery Star rating -->
+      <script src="js/jquery.rateit.min.js"></script>
+      <!-- prettyPhoto -->
+      <script src="js/jquery.prettyPhoto.js"></script>  
+      
+      <!-- jQuery flot -->
+      <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="js/excanvas.min.js"></script><![endif]-->
+      <script src="js/jquery.flot.js"></script>     
+      <script src="js/jquery.flot.pie.js"></script>
+      <script src="js/jquery.flot.stack.js"></script>
+      <script src="js/jquery.flot.resize.js"></script>
+      
+      
+      
+      <!-- Gritter plugin -->
+      <script src="js/jquery.gritter.min.js"></script> 
+      <!-- CLEditor -->
+      <script src="js/jquery.cleditor.min.js"></script> 
+      <!-- Date and Time picker -->
+      <script src="js/bootstrap-datetimepicker.min.js"></script>  
+      <!-- jQuery Toggable -->
+      <script src="js/bootstrap-switch.min.js"></script>
+		<!-- Respond JS for IE8 -->
+		<script src="js/respond.min.js"></script>
+		<!-- HTML5 Support for IE -->
+		<script src="js/html5shiv.js"></script>
+		<!-- Custom JS -->
+		<script src="js/custom.js"></script>
+	</body>	
+</html>
