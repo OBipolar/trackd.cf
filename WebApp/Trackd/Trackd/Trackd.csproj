@@ -317,6 +317,7 @@
     <Content Include="Views\Tracking\Index.cshtml" />
     <Content Include="Views\Visualization\Index.cshtml" />
     <Content Include="Views\Settings\Index.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

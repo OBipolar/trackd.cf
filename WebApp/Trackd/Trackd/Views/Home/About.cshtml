@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+@ViewBag.WhatEverVAriable
+
+<table>
+    @foreach (var entry in ViewBag.EntryList) {
+        <tr>
+            <td>@entry.Metric.Name</td>
+            <td>@entry.TextValue</td>
+        </tr>
+    }
+</table>
+
+<h2>About</h2>
